@@ -25,16 +25,16 @@ public class CheckInputLettersCharactersorSpecialCharacters {
 		
 		@Test
 		public void Test1() {
-			Assert.assertEquals("Number", CheckCharacter('2'));
+			Assert.assertEquals("Number", CheckCharacter('7'));
 		}
 		
 		@Test
 		public void Test2() {
-			Assert.assertEquals("Alphabet", CheckCharacter('z'));
+			Assert.assertEquals("Alphabet", CheckCharacter('a'));
 		}
 		@Test
 		public void Test3() {
-			Assert.assertEquals("Special character", CheckCharacter('{'));
+			Assert.assertEquals("Special character", CheckCharacter('@'));
 		}
 		
 		public String CheckCharacter(char inp) {
