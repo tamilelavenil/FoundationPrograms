@@ -18,7 +18,11 @@ public class SignOfTheProductOfAnArray {
 	public void Test3() {
 		Assert.assertEquals(-1, SignofProduct(new int[] {-1,1,-1,1,-1}));
 	}
-
+	@Test
+	public void Test4() {
+		Assert.assertEquals(1, SignofProduct(new int[] {100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100}));
+	}
+	
 	public int SignofProduct(int[] c) {
 	int a =1;
 	int b =0;
