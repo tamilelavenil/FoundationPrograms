@@ -18,14 +18,19 @@ public class AverageValueofEvenNumbersThatAreDivisiblebyThree {
 	 */
 	public int Average(int []inp) {
 	
-		int sum = 0;
+		int sum = 0, avg =0;
 		for(int i: inp) {
 			if (i%2==0 && i%3==0) {
 				sum += i;
+				avg++;
 			}
 		}
 		
-		return sum/2;
+		if (sum>0) {
+			return sum/avg;	
+		}
+		
+		return sum;
 
 	}
 
