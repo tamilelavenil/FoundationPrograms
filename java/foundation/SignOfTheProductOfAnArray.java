@@ -28,18 +28,18 @@ public class SignOfTheProductOfAnArray {
 	int b =0;
 	for (int i = 0; i < c.length; i++) {
 		a*=c[i];
+		if (c[i]==0) {
+			b = 0;
+			return b;
+		}
+		if (c[i]<0) {
+			b= -1*1;
+		}	
+		if (a>1) {
+			b = 1;
+		}
 		
 	}
-	if (a==0) {
-		b = 0;
-	}
-	if (a<0) {
-		b= -1;
-	}		
-	if (a>1) {
-		b = 1;
-	}
-	
 		return b;
 	}
 	
