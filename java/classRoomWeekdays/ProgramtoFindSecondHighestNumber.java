@@ -34,7 +34,4 @@ public class ProgramtoFindSecondHighestNumber {
 	}
 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> f96c89a966f12dbafc9ef27d8751651b10e72023
